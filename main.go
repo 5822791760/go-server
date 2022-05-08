@@ -33,12 +33,6 @@ func serveFiles(w http.ResponseWriter, r *http.Request) {
 	http.ServeFile(w, r, "./static/form.html")
 }
 
-//newcomment
-//hello
-// robert
-//sdads
-//dddwwwwwwwww================
-
 //====================================================================================================================
 
 func main() {
